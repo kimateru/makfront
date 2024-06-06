@@ -97,7 +97,7 @@ const CarCanvas = ({ scrollContainer }) => {
         setScale([1.66, 1.66, 1.66]);
         setPosition([0.1, -0.5, -1.3]);
       } else {
-        setScale([3, 3, 3]);
+        setScale([1.7, 1.7, 1.7]);
         setPosition([0.2, -0.7, 0]);
       }
     };
