@@ -77,7 +77,11 @@ const CarCanvas = ({ scrollContainer }) => {
     // };
 
     const handleResize = () => {
-      if (window.innerWidth < 500) {
+      if (window.innerWidth < 390) {
+        setScale([0.7, 0.7, 0.7]);
+        setPosition([0.2, -0.1, 0]);
+      }
+      else if (window.innerWidth < 500) {
         setScale([0.8, 0.8, 0.8]);
         setPosition([0.2, -0.1, 0]);
       } else if (window.innerWidth < 768) {
